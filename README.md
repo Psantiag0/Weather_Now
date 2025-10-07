@@ -8,7 +8,7 @@ Um aplicativo simples de previsão do tempo desenvolvido com **React + Vite**, q
 
 - ⚛️ **React** — criação da interface e componentes  
 - ⚡ **Vite** — ambiente de desenvolvimento rápido  
-- 🎨 **CSS / Tailwind (opcional)** — para estilização  
+- 🎨 **Tailwind CSS** — para estilização  
 - 🌐 **OpenWeather API** — fornecimento dos dados meteorológicos  
 
 ---
@@ -52,7 +52,7 @@ cd weather-app
 npm install
 ```
 
-3️⃣ Criar o arquivo .env
+### 3️⃣ Criar o arquivo .env
 
 Crie um arquivo chamado .env na raiz do projeto e adicione sua chave da OpenWeather API:
 
@@ -82,7 +82,7 @@ Se quiser testar erros, digite um nome inexistente (ex: asduiasd) para verificar
 
 No console do navegador, você pode confirmar se a variável import.meta.env.VITE_API_KEY está sendo lida corretamente.
 
-###🌍 API utilizada
+### 🌍 API utilizada
 
 OpenWeatherMap API
 https://openweathermap.org/api
@@ -93,17 +93,25 @@ Exemplo de endpoint:
 https://api.openweathermap.org/data/2.5/weather?q={CITY}&units=metric&appid={API_KEY}&lang=pt_br
 ```
 
+---
+
 ### 🧰 Próximas Melhorias:
-• Tratamento de erros (mensagem “Cidade não encontrada”)
-• Exibição de informações adicionais (umidade, vento, sensação térmica)
-• Implementar geocoding (converter nome da cidade em latitude/longitude)
-• Adicionar modo escuro (dark mode)
-• Layout responsivo e estilização aprimorada
+
+- Tratamento de erros (mensagem “Cidade não encontrada”)
+- Exibição de informações adicionais (umidade, vento, sensação térmica)
+- Implementar geocoding (converter nome da cidade em latitude/longitude)
+- Adicionar modo escuro (dark mode)
+- Layout responsivo e estilização aprimorada
+
+---
 
 ### 🧑‍💻 Autor
 
 Desenvolvido por Paulo Santiago 💡
+
 📅 Projeto em andamento — aprendizado e prática com React, APIs e variáveis de ambiente.
+
+---
 
 ### 📜 Licença
 
