@@ -29,11 +29,16 @@ Um aplicativo simples de previsão do tempo desenvolvido com **React + Vite**, q
 ## 🧱 Estrutura do Projeto
 
 src/
-├── App.jsx # Componente principal da aplicação
-├── App.css # Estilos globais
-├── main.jsx # Ponto de entrada do React
-├── components/ # (opcional) Componentes reutilizáveis
-└── assets/ # (opcional) Imagens e ícones
+
+  ├── App.jsx # Componente principal da aplicação
+
+  ├── App.css # Estilos globais
+
+  ├── main.jsx # Ponto de entrada do React
+
+  ├── components/ # (opcional) Componentes reutilizáveis
+
+  └── assets/ # (opcional) Imagens e ícones
 
 ---
 
