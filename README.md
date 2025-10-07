@@ -47,7 +47,7 @@ src/
 ### 1️⃣ Clonar o repositório
 
 ```bash
-git clone https://github.com/Psantiag0/weather-app.git
+git clone https://github.com/Psantiag0/weather_now.git
 cd weather-app
 ```
 
